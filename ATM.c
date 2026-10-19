@@ -8,9 +8,9 @@ int main()
     printf("Enter current account balance: ");
     scanf("%f", &balance);
 
-    printf("\n Balance Inquiry");
-    printf("\n Cash Withdrawal");
-    printf("\n Cash Deposit");
+    printf("\n1. Balance Inquiry");
+    printf("\n2. Cash Withdrawal");
+    printf("\n3. Cash Deposit");
 
     printf("\nEnter your choice: ");
     scanf("%d", &choice);
